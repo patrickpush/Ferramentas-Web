@@ -41,14 +41,7 @@ footer {
     width: 100%;
 }
 
-/* Estilos do texto Sobre Mim */
-#sobre h4 {
-    text-align: right;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
-}
-
-
+/* Estilos do arredondamento da foto */
 .container {
     display: grid;
     place-items: center; /* Alinhamento ao centro em ambas as direções */
