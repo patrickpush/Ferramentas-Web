@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mim</title>
+    <!-- Conteúdo do CSS da página Sobre Mim -->
+    <style>
+        /* Especificando as dimensões do arredondamento da foto */
+         .foto-arredondada {
+    border-radius: 50%; /* Isso cria as bordas arredondadas */
+    width: 200px; /* Largura da foto */
+    height: 200px; /* Altura da foto */
+  }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 10px 15px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+
+        
+        }
+
+        .container {
+            display: grid;
+            place-items: center; /* Alinha ao centro em ambas as direções */
+            height: 25vh;
+                }
+        
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sobre Mim</h1>
+    </header>
+    <!-- Links para navegação da página -->
+    <nav>
+        <a href="index.html">Sobre Mim</a>
+        <a href="formacao.html">Formação</a>
+        <a href="portfolio.html">Portfólio</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+    <!-- Linkando o endereço da minha foto com a pasta -->
+    <div class="container">
+        <img src="imagens/perfil.jpg" alt="Minha foto" class="foto-arredondada">
+    </div>
+
+    <div class="container">
+        <!-- Conteúdo da página Sobre Mim aqui -->
+        <section id="sobre">
+            <h1>Olá,</h1>
+            <h4 id="sobre">Eu me chamo Patrick de Souza, nasci em Linhas-ES e sou extremamente apaixonado por técnologia.
+                Durante as horas vagas eu gosto de ler, jogar e passear.
+                 Atualmente estou cursando Analise e Desenvolvimento de Sistemas na UNINTER e estudando outros 
+                 cursos sobre a linguagem de programação C#. Meu objetivo é ser um grande desenvolvedor
+                  e acrescentar grandes soluções para o mundo através da tecnologia.</h4>
+                
+        </section>
+    </div>
+
+      
+
+
+    <footer>
+        <p>© 2024 Patrick de Souza</p>
+    </footer>
+</body>
+</html>
